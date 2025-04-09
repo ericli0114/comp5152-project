@@ -11,6 +11,22 @@ This project includes the implementation of stock closing price prediction based
 1. Raw data: `AAPL_preprocessed.csv`
 2. Standardized data: `AAPL_preprocessed_normalization.csv`
 
+### ARIMA
+Put ARIMA.py and AAPL_preprocessed.csv in same directory and run the code to get the results.
+````markdown
+comp5152-project/
+├── ARIMA.py
+└── AAPL_preprocessed.csv
+````
+
+### Decision Tree
+Put DecisionTreeRegression.py and AAPL_preprocessed.csv in same directory and run the code to get the results.
+````markdown
+comp5152-project/
+├── DecisionTreeRegression.py
+└── AAPL_preprocessed.csv
+````
+
 ### LSTM
 Put LSTM-model.py and AAPL_preprocessed.csv in same directory and run the code to get the results.
 ````markdown
@@ -20,14 +36,3 @@ comp5152-project/
 └── prediction_results.csv
 ````
 
-### ARIMA
-Put ARIMA.py and AAPL_preprocessed.csv in same directory and run the code to get the results.
-````markdown
-comp5152-project/
-├── ARIMA.py
-└── AAPL_preprocessed.csv
-````
-To operate the model:
->```bash
->python ARIMA.py
->```
