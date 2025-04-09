@@ -9,7 +9,7 @@ This project includes the implementation of stock closing price prediction based
 
 ### Data preprocessing
 1. Raw data: `AAPL_preprocessed.csv`
-2. Standardized data: `AAPL_preprocessed_Normality.csv`
+2. Standardized data: `AAPL_preprocessed_normalization.csv`
 
 ### LSTM
 Put LSTM-model.py and AAPL_preprocessed.csv in same directory and run the code to get the results.
